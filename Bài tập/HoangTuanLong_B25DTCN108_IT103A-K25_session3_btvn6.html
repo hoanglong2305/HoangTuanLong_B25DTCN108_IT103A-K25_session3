@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="fullname">Họ và tên:</label>
+    <input type="text" name="fullname" id="fullname">
+    <br />
+    <label for="dob">Ngày sinh:</label>
+    <input type="date" name="dob" id="dob">
+    <br />
+    <label for="gender">Giới tính:</label>
+    <input type="radio" name="gender" id="gender">Nam
+    <input type="radio" name="gender" id="gender">Nữ
+    <br />
+    <label for="phone">Số điện thoại:</label>
+    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    <br />
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <br />
+    <label for="companyName">Tên công ty:</label>
+    <input type="text" name="companyName" id="companyName">
+    <br />
+    <label for="role">Vai trò trong công ty:</label>
+    <select name="role" id="role">
+        <option value="CEO" name="role">Giám đốc điều hành (CEO)</option>
+        <option value="manager" name="role">Quản lí (Manager)</option>
+        <option value="staff" name="role">Nhân viên(Staff)</option>
+        <option value="leader" name="role">Trưởng phòng (Department Head)</option>
+        <option value="viceDirector" name="role">Phó giám đốc (Vice Director)</option>
+    </select>
+    <br />
+    <label for="type">Quy mô công ty:</label>
+    <select name="type" id="type">
+        <option value="small">Doanh nghiệp nhỏ</option>
+        <option value="medium">Doanh nghiệp vừa</option>
+        <option value="big">Doanh nghiệp lớn</option>
+    </select>
+    <br />
+    <label for="job">Ngành nghê công ty:</label>
+    <input type="text" name="job" id="job">
+    <br />
+    <label for="reason">Lí do tham gia câu lạc bộ:</label>
+    <textarea name="reason" id="reason">
+
+    </textarea>
+    <br />
+    <label for="leadingExp">Kinh nghiệm lãnh đạo:</label>
+    <textarea name="leadingExp" id="leadingExp">
+
+    </textarea>
+    <br />
+    <label for="goal">Mục tiêu khi tham gia câu lạc bộ:</label>
+    <textarea name="goal" id="goal">
+
+    </textarea>
+    <br />
+    <label for="show">Chương trình sự kiện mong muốn tham gia:</label>
+    <input type="checkbox" name="show" id="show">Networking
+    <input type="checkbox" name="show" id="show">Workshop
+    <input type="checkbox" name="show" id="show">Hội thảo
+    <br />
+    <label for="Signnoti">Đăng ký nhận bản tin:</label>
+    <input type="checkbox" name="Signnoti" id="Signnoti">Có
+    <br />
+    <button type="submit">Đăng ký hội viên</button>
+</body>
+
+</html>

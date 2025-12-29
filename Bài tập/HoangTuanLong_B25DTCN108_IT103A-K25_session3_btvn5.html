@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="fullname">Họ và tên:</label>
+    <input type="text" name="fullname" id="fullname">
+    <br />
+    <label for="dob">Ngày sinh:</label>
+    <input type="date" name="dob" id="dob">
+    <br />
+    <label for="gender">Giới tính:</label>
+    <input type="radio" name="gender" id="gender">Nam
+    <input type="radio" name="gender" id="gender">Nữ
+    <br />
+    <label for="phone">Số điện thoại:</label>
+    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    <br />
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <br />
+    <label for="address">Địa chỉ:</label>
+    <textarea name="address" id="address">
+
+    </textarea>
+    <br />
+    <label for="role">Vai trò trong nhóm:</label>
+    <select name="role" id="role">
+        <option value="member">Thành viên</option>
+        <option value="leader">Nhóm trưởng</option>
+        <option value="sub-leader">Phó nhóm</option>
+    </select>
+    <br />
+    <label for="fav">Sở thích:</label>
+    <input type="text" name="fav" id="fav">
+    <br />
+    <label for="skill">Kỹ năng</label>
+    <textarea name="skill" id="skill">
+
+    </textarea>
+    <br />
+    <label for="freetime">Thời gian rảnh:</label>
+    <input type="checkbox" name="freetime" value="morning">Sáng
+    <input type="checkbox" name="freetime" value="afternoon">Chiều
+    <input type="checkbox" name="freetime" value="evening">Tối
+    <br />
+    <label for="reason">Lí do tham gia nhóm:</label>
+    <textarea name="reason" id="reason">
+
+    </textarea>
+    <br />
+    <label for="favcolor">Màu yêu thích:</label>
+    <input type="color" name="favcolor" id="favcolor">
+    <br />
+    <label for="signUp">Đăng kí nhận bản tin:</label>
+    <input type="checkbox" name="signUp" id="signUp">Có
+    <br />
+    <label for="noti">Nhận thông báo qua email:</label>
+    <input type="radio" name="noti" value="email">Email
+    <input type="radio" name="noti" value="sms">SMS
+    <br />
+    <button type="submit">Đăng ký thành viên</button>
+</body>
+
+</html>
